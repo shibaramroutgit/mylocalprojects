@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Maven Cycle">
+	<!--parameter name="suite-parameter" value="suite level parameter"-->
+
+	<test name="TestRun">
+		<classes>
+			<class name="org.pro.mavenx.testcases.TestClassA"/>
+			<class name="org.pro.mavenx.testcases.TestClassB"/>
+		</classes>
+	</test> <!-- Test -->
+
+</suite> <!-- Suite -->

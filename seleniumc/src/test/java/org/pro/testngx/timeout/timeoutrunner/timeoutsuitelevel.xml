@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestNG Timeout" time-out="5000">
+	<!--parameter name="suite-parameter" value="suite level parameter"-->
+
+	<test name="Test Parameter">
+		<classes>
+			<class name="org.pro.testngx.timeout.timeouttestcases.TimeoutAtSuiteLevel"/>
+		</classes>
+	</test> <!-- Test -->
+
+</suite> <!-- Suite -->

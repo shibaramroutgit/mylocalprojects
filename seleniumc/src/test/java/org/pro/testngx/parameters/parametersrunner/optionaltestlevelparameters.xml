@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestNG Method0">
+
+	<test name="Normal Parameter">
+		<parameter name="test-parameter" value="Normal Test Level Parameter"/>
+		<classes>
+			<class name="org.example.parameters.parameterstestcases.ParameterOptionalTestLevelA">
+			</class>
+		</classes>
+	</test> <!-- Test -->
+	<test name="Optional Parameter">
+		<classes>
+			<class name="org.example.parameters.parameterstestcases.ParameterOptionalTestLevelB"/>
+		</classes>
+	</test>
+
+</suite> <!-- Suite -->

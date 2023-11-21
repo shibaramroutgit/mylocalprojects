@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestNG Group">
+
+	<test name="TestRun1">
+		<groups>
+			<run>
+				<include name="smoke"/>
+				<include name="system"/>
+				<exclude name="reg"/>
+			</run>
+		</groups>
+		<classes>
+			<class name="org.pro.testngx.groupsrun.grouptestcases.TestCasesA"/>
+			<class name="org.pro.testngx.groupsrun.grouptestcases.TestCasesB"/>
+		</classes>
+	</test> <!-- Test -->
+
+</suite> <!-- Suite -->

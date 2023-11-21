@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestNG Timeout" time-out="3000">
+	<!--Time out of suite level override at test level and Test level override at method level-->
+
+	<test name="Test Parameter" time-out="5000">
+		<classes>
+			<class name="org.pro.testngx.timeout.timeouttestcases.TimeoutOverride"/>
+		</classes>
+	</test> <!-- Test -->
+
+</suite> <!-- Suite -->

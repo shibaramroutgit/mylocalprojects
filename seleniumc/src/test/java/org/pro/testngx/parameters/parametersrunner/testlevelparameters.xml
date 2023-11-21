@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestNG Method0">
+	<!--parameter name="suite-parameter" value="suite level parameter"-->
+
+	<test name="Test Parameter">
+		<parameter name="test-parameterA" value="Test Level Parameter A"/>
+		<parameter name="test-parameterB" value="Test Level Parameter B"/>
+		<parameter name="test-parameterC" value="Test Level Parameter C"/>
+
+		<classes>
+			<class name="org.pro.testngx.parameters.parameterstestcases.ParameterAtTestLevel">
+				<methods>
+					<include name="testCase1"/>
+					<include name="testCase2"/>
+					<include name="testCase3"/>
+				</methods>
+			</class>
+		</classes>
+	</test> <!-- Test -->
+
+</suite> <!-- Suite -->

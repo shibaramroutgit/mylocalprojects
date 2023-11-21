@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestNG Method0">
+	<!-- This parameter will be passed to every test in this suite -->
+	<parameter name="suite-parameterA" value="suite level parameterA"/>
+
+
+	<test name="Test Parameter">
+		<parameter name="test-parameterA" value="test level parameterA"/>
+		<classes>
+			<class name="org.pro.testngx.parameters.parameterstestcases.ParameterAtSuiteTestLevel"/>
+		</classes>
+	</test> <!-- Test -->
+
+</suite> <!-- Suite -->

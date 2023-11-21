@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestNG Method Parallel">
+	<listeners>
+		<listener class-name="org.pro.testngx.itestnglistener.ReportMasterListener" />
+
+	</listeners>
+
+	<test name="TestRun1">
+		<classes>
+			<class name="org.pro.testngx.itestnglistener.AccountBalanceTestCase"/>
+			<class name="org.pro.testngx.itestnglistener.BankAccountTestCase"/>
+		</classes>
+	</test> <!-- Test -->
+
+
+</suite> <!-- Suite -->
