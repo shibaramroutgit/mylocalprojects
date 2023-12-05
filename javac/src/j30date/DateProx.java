@@ -1,14 +1,13 @@
-package j22jdbc;
+package j30date;
 
 
-import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-public class TestProx
+public class DateProx
 {
 
-        public static void main(String args[])
+        public static void main(String[]args)
         {
             SimpleDateFormat df = new SimpleDateFormat("yyyy-MM-dd");
             Date d = new Date();
