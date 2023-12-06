@@ -27,7 +27,7 @@ public class FIPredicate {
         //System.out.println( l1.stream().collect(Collectors.toList()));
         //l1.stream().filter(x->x%2==0).collect(Collectors.toList());
         System.out.println(l1.stream().filter(x->x%2==0).collect(Collectors.toList()));
-        l1.stream().reduce()
+        //l1.stream().reduce();
 
 
     }
